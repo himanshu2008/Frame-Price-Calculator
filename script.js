@@ -24,6 +24,6 @@ function calculateRate() {
     const totalPrice = totalFramePrice + totalBoardPrice + totalGlassPrice;
     const totalSellPrice = totalPrice * 4;
 
-    document.getElementById('result').textContent = `The rate is: ${totalPrice.toFixed(2)}`;
-    document.getElementById('sellResult').textContent = `The rate is: ${totalSellPrice.toFixed(2)}`;
+    document.getElementById('result').textContent = `The cost price is: ${totalPrice.toFixed(2)}`;
+    document.getElementById('sellResult').textContent = `The sell price is: ${totalSellPrice.toFixed(2)}`;
 }
